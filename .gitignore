@@ -1,1 +1,18 @@
+# Ignore the CSV file containing URLs
 urls.csv
+
+# Ignore all CSV files (if you want to hide all CSVs)
+*.csv
+
+# Ignore all hidden files and directories (starting with .)
+/.*
+
+# Ignore virtual environment directories
+venv/
+env/
+filedownloader/
+
+# If you use other common names for virtual environments, add them here:
+.venv/
+.virtualenv/
+
